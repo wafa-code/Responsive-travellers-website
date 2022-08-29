@@ -4,7 +4,7 @@ Fully Responsive Design for Travellers users - Travel Website
 This project was built with  HTML CSS and JavaScript.
 
 
-Live Demo
+Live Demo: 
 https://wafa-code.github.io/Responsive-travellers-website/
 
 
