@@ -1,5 +1,3 @@
-/* Countdown Timer ** Video URL: https://www.youtube.com/watch?v=eFsiOTJrrE8 */
-
 // The End Of The Year Date
 // 1000 milliseconds = 1 Second
 
@@ -30,9 +28,6 @@ let counter = setInterval(() => {
   }
 }, 1000);
 
-/* ** Animate Width On Scrolling    ** Video URL: https://youtu.be/sbIoIKI9FOc 
-   ** Increase Numbers On Scrolling ** Video URL: https://youtu.be/PLsUdgLnzgQ
-*/
 
 let progressSpans = document.querySelectorAll(".the-progress span");
 let section = document.querySelector(".our-skills");
