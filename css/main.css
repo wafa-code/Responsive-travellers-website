@@ -26,7 +26,7 @@
     margin: 0;
     padding: 0;
   }
-   /*start my code */
+  
    button {
     cursor: pointer;
     display: block;
@@ -54,7 +54,6 @@
       justify-content: center;
     }
   }
-  /*end my code */
   
   .container {
     /* padding-left: 0.9375rem; */
@@ -107,13 +106,6 @@
     transform: translateY(-50%);
   }
  
-  /* .main-title:hover::before {
-    z-index: -1;
-    width: 95%;
-    transition: var(--main-transition);
-    animation: left-move 0.5s linear forwards; 
-  } */
-  
   .second-title {
     text-transform: uppercase;
     /* padding: 0.625rem 1.25rem; */
@@ -234,10 +226,6 @@
   }
 
 
-  /* .header .main-nav > li > a:hover {
-    color: var(--main-color);
-    background-color: #FEF9F3;
-  } */
   .header .main-nav > li > a:hover::before {
     left: 0;
   }
@@ -310,7 +298,7 @@
   .header .mega-menu .links li a i {
     margin-right: 0.625rem;
   }
-   /*start my code */
+   
   .header button {
     border: 0.125rem solid var(--main-color); 
     background-color: var(--main-color);
@@ -558,7 +546,7 @@
   .landing .bubble .go-down i {
     animation: bouncing 2s infinite;
   }
-  /*start my code */
+  
   .landing button {
     border: 0.125rem solid transparent; 
     display: flex;
@@ -618,7 +606,6 @@
       justify-content: center;
     }
   }
-  /* End my code */
   /* End Landing */
   /* Start People */
   .People {
@@ -693,12 +680,9 @@
   .People .box:hover .info i {
     animation: moving-arrow 0.6s linear infinite;
   }
-  /* Start my code */
   .People img{
     max-height: 33rem;
-    
   }
-  /* End my code */
   /* End People */
   /* Start Partner */
   .partner {
@@ -761,7 +745,7 @@
   .partner .image:hover img {
     transform: rotate(5deg) scale(1.1);
   }
-  /* start my code  */
+  
   .partner .bubble-circle {
     display: flex;
     position: relative;
@@ -782,7 +766,7 @@
   .partner .container .text .second-title{
     text-align: left;
   }
-  /* end my code */
+  
   /* End Partner */
   
   /* Start Pricing */
@@ -935,14 +919,14 @@
     border-color: var(--main-color-alt);
     color: white;
   }
-  /* start my code */
+  
   .pricing .container .box p{
     font-size: 0.9rem;
     color: #838383;
     font-weight:100 ;
     padding-right: 1.25rem;
   }
-  /* end my code */
+  
   /* End Pricing */
  
   /* Start Stats */
